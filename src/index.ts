@@ -1,9 +1,9 @@
-import core from '@actions/core'
+import {getInput} from '@actions/core'
 
-const inputName = core.getInput("name")
-
-start(inputName)
+const inputName = getInput("name")
 
 function start(name: string){
   console.log(`Hello ${name}`)
 }
+
+start(inputName)
