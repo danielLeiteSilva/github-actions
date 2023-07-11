@@ -1,6 +1,11 @@
 name: 'Mutation Test'
 author: 'Daniel Leite'
 description: 'First Action With typescript'
+inputs: 
+  name:
+    description: "Name to Greet"
+    required: false
+    default: 'Daniel'
 runs:
   using: 'node16'
   main: 'dist/index.js'
