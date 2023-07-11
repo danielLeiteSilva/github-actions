@@ -3,4 +3,4 @@ author: 'Daniel Leite'
 description: 'First Action With typescript'
 runs:
   using: 'node16'
-  main: 'dis/index.js'
+  main: 'dist/index.js'
